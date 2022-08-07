@@ -1,3 +1,5 @@
-# Files not to be push
-*#
 *~
+*main*
+*__pycache__*
+*.o
+*.pyc
