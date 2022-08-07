@@ -33,7 +33,6 @@ def parse(arg):
 
 class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter.
-
     Attributes:
         prompt (str): The command prompt.
     """
@@ -208,3 +207,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
+    
